@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+
+springdoc:
+  packages-to-scan: com.samodelkin.band.controller
+  enable-data-rest: false
+  swagger-ui:
+    enabled: true
+    display-request-duration: true
